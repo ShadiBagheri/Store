@@ -1,0 +1,29 @@
+.menuBar{
+    width: 600px;
+    display: flex;
+    padding: 10px;
+    margin-top: -80px;
+    margin-left: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuBar ul{
+    display: flex;
+    list-style: none;
+}
+.menuBar ul li{
+    margin: 5px 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #b0b0af;
+}
+.icon{
+   margin-left: 8px;
+}
+

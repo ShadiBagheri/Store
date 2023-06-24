@@ -1,0 +1,21 @@
+.sidebarStyle{
+    background-color: #eaeaa2;
+    width: fit-content;
+    height: fit-content;
+}
+.sidebarIcons{
+    margin-left: 22px;
+    padding: 5px;
+    margin-top: -3px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.closeIcon{
+    width: 30px;
+    height: 30px;
+}
+.menuIcon{
+    width: 30px;
+    height: 30px;
+}

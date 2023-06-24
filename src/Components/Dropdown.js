@@ -1,30 +1,29 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
-//Icons
-
+//Styles
+import styles from "../Components/Dropdown.module.css";
 
 const Dropdown = () => {
     return (
         <>
-            <nav>
+            <nav className={styles.dropdown}>
                 <ul>
-                    <li>
+                    <li className={styles.dropdownItems}>
                         <Link to="/">
-                            Women's Dress
+                            Women
                         </Link>
                     </li>
-                    <li>
+                    <li className={styles.dropdownItems}>
                         <Link to="/">
-                            Mens Wear
+                            Men
                         </Link>
                     </li>
-                    <li>
+                    <li className={styles.dropdownItems}>
                         <Link to="/">
                             Shoes
                         </Link>
                     </li>
-                    <li>
+                    <li className={styles.dropdownItems}>
                         <Link to="/">
                             Bag
                         </Link>

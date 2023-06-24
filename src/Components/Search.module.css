@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    margin-left: 1015px;
+    margin-top: -62px;
+}
+.search input {
+    border: none;
+    border-radius: 30px;
+    box-shadow: inset 10px 6px 5px #8b8a8a, -1px 2px 4px #a4a4a4;
+    position: relative;
+    padding: 3px;
+    margin: 5px;
+}
+.search input:focus {
+    border: none;
+}
+.search .icon {
+    display: flex;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 12px;
+    color: gray;
+}
+.search .searchInput:focus {
+    outline: none;
+    line-height: 30px;
+    height: 30px;
+    border: none;
+}

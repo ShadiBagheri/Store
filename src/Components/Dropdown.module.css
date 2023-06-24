@@ -1,0 +1,22 @@
+.dropdown{
+    width: 130px;
+    height: 150px;
+    margin: 10px 0 15px;
+    position: absolute;
+    background-color: #eaeaa2;
+    border-radius: 5px;
+}
+.dropdown ul{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.dropdownItems a{
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+    margin-left: 5px;
+}
+.dropdownItems a:hover{
+    color: #b0b0af;
+}
